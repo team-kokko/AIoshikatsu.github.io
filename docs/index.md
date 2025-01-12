@@ -1,4 +1,4 @@
-## [プライバシーポリシー](https://splattersorg.github.io/privacy_policy.html)
+## [プライバシーポリシー](https://AIoshikatsu.github.io/privacy_policy.html)
 
 本アプリケーションは、取得した個人情報・パーソナルデータについて、ユーザーの同意なくして利用目的を超えて利用することはございません。
 
