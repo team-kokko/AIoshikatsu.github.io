@@ -1,0 +1,1 @@
+# AIoshikatsu.github.io
