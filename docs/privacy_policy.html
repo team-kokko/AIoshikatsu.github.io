@@ -1,0 +1,671 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>個人情報保護方針（プライバシーポリシー）</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="a897bb64-44c2-4d89-8f59-cdcd439a3f0a" class="page sans"><header><h1 class="page-title">個人情報保護方針（プライバシーポリシー）</h1></header><div class="page-body"><h2 id="45d9dd5d-2f54-4a90-be39-48ab420e5996" class="">第１条（個人情報保護体制の確立）</h2><p id="7fcea7e2-a5da-4866-90dc-99864f09fd6f" class="">coffeemountain（以下「当事業者」といいます）は、その取り扱う全てのユーザーを特定しうる情報（以下、ここでは「個人情報」といい、個人情報保護法に定める個人情報に限らず、パーソナルデータなど個人に関するすべてのデータを含みます）の保護について、社会的使命を十分に認識し、本人の権利の保護、個人情報に関する法規制等を遵守します。</p><h2 id="bb475451-1964-46d5-a6ce-e1988d6b2bab" class="">第２条（個人情報の取り扱い目的）</h2><p id="713d5892-cfee-45a8-8d1c-0f4da5886b78" class="">当事業者は、ユーザーの個人情報をユーザーの同意なくして利用目的の範囲を超えて利用することはございません。当事業者が取得した個人情報は、以下の目的に利用致します。</p><p id="5d804b7e-38d1-41ac-9a79-21c3826f31ef" class="">①本サービスの提供・運営のため</p><p id="774fad96-3208-495c-ab97-2b5dea806e77" class="">②ユーザーからのお問い合わせに回答するため</p><p id="b4fafbe3-ee71-4ea4-9a4e-f991e4c079c8" class="">③広告の配信・表示のため</p><p id="b148e009-4621-48b0-9aa2-2f889683ce54" class="">④ユーザーのトラフィック測定及び行動測定のため</p><p id="4ec887b2-ca33-4fe3-a269-0364dc89f4f6" class="">⑤法令の定め又は行政当局の通達・指導などに基づく対応を行うため</p><p id="a84a137e-6880-448c-a549-18065cbe0e66" class="">⑥個人を特定しない形でユーザーの本アプリ使用状況を統計情報として公開するため</p><p id="52c42cc3-a3a5-4263-88ea-ce0966403176" class="">⑦その他個人情報取得時に明示した利用目的</p><h2 id="b61f27f7-0dc9-4e52-8d44-415573f45029" class="">第３条（個人情報の安全管理措置）</h2><p id="d95ff921-c55c-485c-9206-ad00a0422819" class="">当事業者は、個人情報への不正アクセス、個人情報の紛失・破壊・改ざん・漏洩等の防止その他個人情報の安全管理のために、組織的、物理的及び技術的な安全管理措置を適切に講じます。以上の目的を達するため、物理的安全管理措置として、当事業者は個人データを取り扱うことのできる従業者及び本人以外が容易に個人データを閲覧等できないような措置を講ずるものとします。</p><h2 id="693060d3-ade7-411f-8d67-004e47c5937c" class="">第４条（Cookieの利用）</h2><p id="c9ff44db-e70c-49fe-a344-768d790939be" class="">本アプリは、ユーザーにより一層のサービスを提供するため、Cookie（クッキー）と呼ばれる技術を利用しています。Cookieの情報には、第三者がユーザー個人を特定できる情報は含まれておらず、ユーザーのプライバシーが侵害されることはありません。また、ユーザーは、使用しているアプリの設定により、Cookieの受け取りを拒否することが可能です。但し、受け取り拒否をされた場合、一部サービスの利便性が低下する可能性がありますので、予めご了承ください。</p><h2 id="4c2c76ac-8bfc-4b07-afbc-bbd9756f13ed" class="">第５条（個人情報の収集）</h2><p id="8a91bf9c-bc7c-4a8c-94cc-5bc8b2f26e14" class="">本アプリでは、ログイン認証のためにニンテンドーアカウントへログインをする必要があります。ログイン時に入力されたログインID・パスワードは、自動的にニンテンドーのサーバーへ送信され、ログイン以外の目的で利用されることはありません。また、二回目以降のログインの際に自動ログイン機能を実施するため、ニンテンドーサーバーより返却された識別情報をユーザーのローカルストレージに保存されます。</p><p id="cf63829b-135f-4da5-b487-f2e0cc21f9ab" class="">第６条（情報収集モジュール）</p><p id="bc14e168-8c1c-4764-9f0e-5f60435352a6" class="">本アプリでは、ユーザー情報を取得するなどの目的として、次の情報収集モジュールを利用します。情報収集モジュールが取得する情報の項目、利用目的、第三者提供の有無につきましては、以下のサービスのプライバシーポリシーをご確認ください。</p><ul id="64258324-fce3-4808-a49b-743ae0f9c88e" class="bulleted-list"><li style="list-style-type:disc"><strong>Google Analyticsの利用</strong></li></ul><p id="57d80ebc-6bdb-4486-a9ee-863caafab3dc" class="">本アプリでは、ユーザーの利用状況を把握するためにGoogle Analyticsを利用しています。Google Analyticsの利用規約及びプライバシーポリシーに関する説明については、Google Analyticsのアプリをご覧ください。</p><p id="c137562c-7d24-419a-8e34-ce32e83762f1" class="">Google Analytics利用規約（https://marketingplatform.google.com/about/analytics/terms/jp/）Google プライバシーポリシー</p><p id="262b1b8a-0c5e-462c-88d3-df3f36c1226d" class="">（https://policies.google.com/privacy?hl=ja）</p><ul id="0f8bc619-e595-4e4c-9f99-632984076cdf" class="bulleted-list"><li style="list-style-type:disc"><strong>Firebase Crashlyticsの利用</strong></li></ul><p id="d08dd207-833f-47e8-9f0b-ee1f88a57b53" class="">会社名：Google, Inc.</p><p id="beec5f7d-1f31-4689-9059-a05f0e3ed04c" class="">サービス名称：Firebase Crashlytics</p><p id="6e2b54c7-6956-4693-94b7-728ac84996c0" class="">(https://firebase.google.com/products/crashlytics/)</p><p id="f1f71632-2250-425a-8515-c3217e1c72b3" class="">プライバシーポリシー：https://policies.google.com/privacy?hl=ja</p><h2 id="cca007f3-2e60-4c5e-afb2-979df8d5f9c8" class="">第７条（個人情報の第三者への提供）</h2><p id="f267b9c5-209b-4a13-8b8b-ad37ae4325d6" class="">当事業者は、人命や人権を保護するために緊急を要する場合、または司法機関、警察等の公共機関による法令に基づく要請に協力する場合、その他法令に従う場合には、ユーザーにお断りすることなく情報開示することがあります。</p><h2 id="89f57a63-d9f8-42eb-9c2f-0f7cce519782" class="">第８条（プライバシーポリシーの変更）</h2><p id="c43fa5db-a8b9-4e8a-ae70-e87a1afb32c0" class="">当事業者は、個人情報保護方針（プライバシーポリシー）の取り扱い方法について適宜見直しを行い、改訂することがあります。ただし、個人情報保護法その他の法令により、改定に必要な手続きが定められている場合には、当該法令に基づき改定を行うものとします。</p><h2 id="715c36c9-dcc8-4047-89c0-bf145d00e758" class="">第９条（個人情報の訂正および解除）</h2><p id="3c93c39c-25e1-45ef-99df-451d85c9cd62" class="">１．ユーザーは、当事業者の保有する個人情報が誤った情報であると判断される場合には、当事業者が定める手続きにより、当事業者に対して個人情報の訂正、追加、または削除（以下、「訂正等」といいます）を請求することができます。</p><p id="68f85622-2ec1-41ec-8690-23473553e39b" class="">２．当事業者は、ユーザーから前項の請求を受けてその請求に応じる必要があると判断した場合には、遅滞なく当該個人情報の訂正等を行うものとします。</p><p id="a7c3921a-6bc7-4b38-85b1-ddd94b49ead8" class="">３．当事業者は、前項の規定に基づき訂正等を行った場合、または訂正等を行わない旨の決定をしたときは遅滞なく、これをユーザーに通知します。</p><h2 id="7a57c5ca-7544-49d5-bca4-7afd5b477f07" class="">第１０条（個人情報の利用停止等）</h2><p id="60170f38-2d0c-46b0-a42a-f36c0d803fe6" class="">１．当事業者は、ユーザーから、個人情報が、次の各号に該当する場合であって、その利用の停止又は消去（以下、「利用停止等」といいます）を求められた場合には、遅滞なく必要な調査を行います。</p><p id="36ea0925-caaa-4eab-aaf9-4002d34da380" class="">①利用目的の範囲を超えて取り扱われているという場合</p><p id="7b62fdb1-8dc6-4144-98aa-e3f9e1baddad" class="">②不正の手段により取得されたものである場合</p><p id="523bb153-cf90-4156-91c1-9ac745df243f" class="">③違法な第三者提供がなされた場合</p><p id="fc2c2565-131d-4a07-9352-5df0f931b07b" class="">④不適正な利用がなされた場合</p><p id="798be5bc-bcb3-41eb-89c9-f69515271abd" class="">⑤当事業者が個人情報を利用する必要がなくなった場合</p><p id="f3d9ec29-ea81-45c8-9ebf-ec02ff8ccec3" class="">⑥法令により当事業者が個人情報の漏洩等により個人情報保護委員会への報告を要する事態が生じた場合</p><p id="9a6c9cec-c25d-4317-b0b4-8e850c9a79fe" class="">⑦その他ユーザーの権利または正当な利益が害される恐れがある場合</p><p id="d260d464-0823-43e7-b6b2-bbf941a3f341" class="">２．前項の調査結果に基づき、その請求に応じる必要があると判断した場合には、遅滞なく、当該個人情報の利用停止等を行います。</p><p id="eca33b53-f2a2-441a-8e4d-058840194ac8" class="">３．当事業者は、前項の規定に基づき利用停止等を行った場合、または利用停止等を行わない旨の決定をしたときは、遅滞なく、これをユーザーに通知します。</p><p id="d6cb201d-f009-497d-84ea-c2b12ddb85d7" class="">４．前二項にかかわらず、利用停止等に多額の費用を有する場合その他利用停止等を行うことが困難な場合であって、ユーザーの権利利益を保護するために必要なこれに代わるべき措置をとれる場合は、この代替案を講じるものとします。</p><h2 id="2862208c-daea-4f99-8aa0-1a76a6aea7f8" class="">第１１条（個人情報の開示）</h2><p id="4e790d4c-22d4-4e1d-8c31-4b3cf9129d37" class="">１．当事業者は、ユーザーより個人情報の開示を求められたときには、ユーザー本人に対し、書面又は電磁的記録の提供により遅滞なくこれを開示します。ただし、開示することにより次のいずれかに該当する場合は、その全部または一部を開示しないこともあり、開示しない決定をした場合には、その旨を遅滞なく通知します。また、開示に多額の費用を要する場合等ご本人から指定された開示方法による開示が困難な場合は、書面での開示となります。</p><p id="42797b4e-04ad-4175-9e09-2e828b899985" class="">①本人または第三者の生命、身体、財産その他の権利利益を害する恐れがある場合</p><p id="693ab416-748b-4cbc-ac56-fe8453db0d88" class="">②当事業者の業務の適正な実施に著しい支障を及ぼす恐れがある場合</p><p id="21e72c9f-3e2b-4c24-8e96-c63a13f5f57a" class="">③その他法令に違反することとなる場合</p><p id="595b5446-e41d-4171-b90a-e95a7e9c08fe" class="">④法令で開示義務が除外されている場合</p><p id="feaa18f0-fafa-4ece-9121-86e97477c753" class="">２．個人情報の開示に関しては、１件当たり１，０００円の手数料をご負担いただきますので予めご了承ください。</p><h2 id="44bc66b6-c3e8-42ee-9507-70fe6dcac4dd" class="">第１２条（匿名加工情報の取り扱い）</h2><p id="752faa1a-29b9-4380-94fa-ad359e8a272e" class="">１．当事業者は、匿名加工情報を作成するときは、法令の定めに基づき、特定の個人を識別することおよびその作成に用いるパーソナルデータを復元することができないようにするために必要な措置を取ります。また、匿名加工情報を自ら利用するときは、元のパーソナルデータにかかる本人を識別（再識別）する目的で他の情報と照合することを行いません。</p><p id="66e1adcf-6a17-4eed-b59e-ae1e8fa8a615" class="">２．当事業者は、匿名加工情報を作成したときは、法令の定めるところにより当該匿名加工情報に含まれる個人に関する項目を公表します。</p><p id="42933d66-359f-4509-ba8d-0e6c2a8e9dc9" class="">３．当事業者は、当事業者が作成した匿名加工情報を第三者に提供するときは、法令の定めるところにより、第三者に提供される匿名加工情報に含まれる個人に関する情報の項目及びその提供方法について公表するとともに、当該第三者に対して、提供される情報が匿名加工情報である旨を明示します。</p><h2 id="ac94e60b-46a6-4658-8ed7-ca6ec970ab87" class="">第１３条（お問い合わせ）</h2><p id="e4d78195-cc70-4c7a-9441-074841f09bd1" class="">本ポリシーに関するご意見、ご質問、苦情の申し出その他ユーザー情報の取り扱いに関するお問い合わせは、下記の相談窓口までお願い致します。</p><p id="ce9e5efd-9377-4d89-9a23-d8716a41fb07" class="">splatters.contact@gmail.com</p><p id="e1037d3e-cb85-4ba3-9d3c-22d99ebd601f" class="">
+</p><p id="6302b734-3ebd-4b9f-b4cc-605f85a1ea67" class="">2023年01月23日制定</p><p id="106eb6fa-2c13-4d02-adff-e6365eb88722" class="">
+</p></div></article></body></html>
